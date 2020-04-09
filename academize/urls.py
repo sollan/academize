@@ -8,6 +8,7 @@ admin.autodiscover()
 urlpatterns = [
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r"^admin/", admin.site.urls, name="admin"),
+    # url(r'^$', 'academize.views.home', name='home'),
 
 
 ]
